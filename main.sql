@@ -32,7 +32,7 @@ WHERE id_nota = 102;
 SELECT estudiante, AVG(calificacion) AS promedio
 FROM Nota_Aula
 GROUP BY estudiante
-HAVING AVG(calificacion) >= 3.0;
+HAVING AVG(calificacion) >= 3.5;
 
 INSERT INTO Nota_Aula (id_nota, id_materia, estudiante, calificacion)
 VALUES (105, 1, 'Estudiante prueba', 4.55);
